@@ -1,0 +1,105 @@
+<resources>
+    <!-- Title for the application. -->
+    <string name="app_name">Alexandria Egypt</string>
+
+    <!-- Category name for Restaurants. -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for for Attractions. -->
+    <string name="category_attractions">Attractions</string>
+
+    <!-- Category name for Museums. -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for Cafes. -->
+    <string name="category_cafes">Cafes</string>
+
+    <!-- Description of the images. -->
+    <string name="the_image_is_magnified">The image is magnified</string>
+    <string name="the_image_of_the_place">The image of the place</string>
+
+    <!-- Names of Restaurants. -->
+    <string name="seagull">Seagull</string>
+    <string name="hosny_grill">Hosny Grill</string>
+    <string name="balbaa">Balbaa</string>
+    <string name="kadoura">Kadoura</string>
+    <string name="abo_faris">Abo Faris</string>
+    <string name="tikka">Tikka</string>
+    <string name="ibn_el_balad">Ibn El balad</string>
+    <string name="sultan_ayoub">sultan ayoub</string>
+
+    <!-- Addresses of Restaurants. -->
+    <string name="seagull_address">Gleem – Highest Café Latino</string>
+    <string name="hosny_grill_address">Extension of Suez Canal St, beside International Park Alex</string>
+    <string name="balbaa_address">El Moushir St,beside Armed Forces Hospital, Sidi Gaber</string>
+    <string name="kadoura_address">33 Beiram El Tounisy St,Bahary</string>
+    <string name="abo_faris_address">242 El Guish RD, Roushdy</string>
+    <string name="tikka_address">El Guish Rd, beside Egyptian Sea Scout Club, Bahary</string>
+    <string name="ibn_el_balad_address">El Horreya Rd, inside Alexandria Sporting Club</string>
+    <string name="sultan_ayoub_address">inside San Stafano Grand Plaza Mall</string>
+
+    <!-- Names of Attractions. -->
+    <string name="maamoura">Maamoura</string>
+    <string name="montazah">Montazah</string>
+    <string name="citadel_of_qaitbay">Citadel of Qaitbay</string>
+    <string name="stanly_bridge">Stanly Bridge</string>
+    <string name="green_plaza">Green Plaza</string>
+    <string name="san_stefano_mall">San Stefano Mall</string>
+    <string name="carrefour">Carrefour</string>
+    <string name="planetarium_science_center">Planetarium Science Center</string>
+    <string name="bibliotheca_alexandrina">Bibliotheca Alexandrina</string>
+    <string name="san_giovanni">San Giovanni</string>
+
+    <!-- Addresses of Attractions. -->
+    <string name="maamoura_address">About 1km east of Montazah</string>
+    <string name="montazah_address">El Mandara Bahery, Qasm El Montaza</string>
+    <string name="citadel_of_qaitbay_address">Qaitbay St., El Anfoushi</string>
+    <string name="stanly_bridge_address">near the city centre of Alexandria</string>
+    <string name="green_plaza_address">14th Of May Rd., Semouha</string>
+    <string name="san_stefano_mall_address">El Guish Rd., San Stephano</string>
+    <string name="carrefour_address">Gate 4 1St, Alexandria Cairo Desert Road</string>
+    <string name="planetarium_science_center_address">El Guish Rd., El Shatby</string>
+    <string name="bibliotheca_alexandrina_address">El Guish Rd., El Shatby</string>
+    <string name="san_giovanni_address">205 El-Gaish Rd, Stanley Bridge</string>
+
+    <!-- Names of Museums. -->
+    <string name="royal_jewelry_museum">Royal Jewelry Museum</string>
+    <string name="alexandria_aquarium">Alexandria Aquarium</string>
+    <string name="thegrecoroman_museum">The Greco-Roman Museum</string>
+    <string name="museum_of_fine_arts">Museum of Fine Arts</string>
+    <string name="alexandria_national_museum">Alexandria National Museum</string>
+    <string name="museum_of_calligraphy">Museum of Calligraphy</string>
+    <string name="the_sadat_museum">The Sadat Museum</string>
+    <string name="cavafy_museum">Cavafy Museum</string>
+
+    <!-- Addresses of Museums. -->
+    <string name="royal_jewelry_museum_address">27 Ahmed Yehia Pasha St., Zizinia</string>
+    <string name="alexandria_aquarium_address">Qaitbay St., EL ANFOUSHI</string>
+    <string name="thegrecoroman_museum_address">5 el Mathaf St</string>
+    <string name="museum_of_fine_arts_address">1 Menasha St. Moharram Bey</string>
+    <string name="alexandria_national_museum_address">131 El-Shaheed Galal El-Desouky, Bab Sharqi</string>
+    <string name="museum_of_calligraphy_address">6 Menasha St. Moharram Bey</string>
+    <string name="the_sadat_museum_address">Port Said St., El shatby, inside Bibliotheca Alexandrina</string>
+    <string name="cavafy_museum_address">6 Sharm El Sheikh St. Off Istanbul St. Raml Station</string>
+
+    <!-- Names of Cafes. -->
+    <string name="zanillis">Zanilli\'s</string>
+    <string name="paplo">Paplo</string>
+    <string name="costa">Costa</string>
+    <string name="santos">Santos</string>
+    <string name="carlos">Carlos</string>
+    <string name="latino">Latino</string>
+    <string name="delight">Delight</string>
+    <string name="roastery">Roastery</string>
+
+    <!-- Addresses of Cafes. -->
+    <string name="zanillis_address">Montaza Palace Gardens</string>
+    <string name="paplo_address">Kournish, Stanly, Highest Supreem Cafe</string>
+    <string name="costa_address">274 El Guish Rd, Stanly</string>
+    <string name="santos_address">El-Gaish Road, Qism Sidi Gabir</string>
+    <string name="carlos_address">424 Kournish st, Loran</string>
+    <string name="latino_address">El Guish Rd, Gleem</string>
+    <string name="delight_address">37 El Fardous St., Semouha</string>
+    <string name="roastery_address">38 Abdel Qader Ragab St, Roushdy</string>
+</resources>
+

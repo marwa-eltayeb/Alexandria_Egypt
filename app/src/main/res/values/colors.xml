@@ -1,0 +1,16 @@
+<resources>
+    <!-- Primary color of the app. -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app. -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan">#FFF7DA</color>
+
+    <!-- When the item is pressed -->
+    <color name="custom_color">#ffedae</color>
+
+    <!-- Color of text inside Tab -->
+    <color name="colorOfTabText">#595959</color>
+</resources>

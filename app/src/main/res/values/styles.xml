@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="actionBarStyle">@style/AlexandriaEgyptAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Style for a category of vocabulary words -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/paddingTab</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="AlexandriaEgyptAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/primary_color</item>
+        <item name="tabSelectedTextColor">@color/primary_color</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab text-->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/colorOfTabText</item>
+        <item name="android:textSize">@dimen/sizeOfTabText</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- Single List Item (Element 1)-->
+    <style name="name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/heightOfElement</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Single List Item (Element 2)-->
+    <style name="address" parent="name">
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">@dimen/textSizeOfAddress</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+
+    <!-- Padding for the layout inside list_item.xml -->
+    <dimen name="padding">10dp</dimen>
+
+    <!-- Height of the element inside list_item.xml -->
+    <dimen name="heightOfElement">0dp</dimen>
+
+    <!-- Padding of the Tab -->
+    <dimen name="paddingTab">16dp</dimen>
+
+    <!-- Size for a category tab text-->
+    <dimen name="sizeOfTabText">15sp</dimen>
+
+    <!-- TextSize of the address -->
+    <dimen name="textSizeOfAddress">12sp</dimen>
+</resources>
