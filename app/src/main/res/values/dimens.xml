@@ -13,8 +13,8 @@
     <dimen name="paddingTab">16dp</dimen>
 
     <!-- Size for a category tab text-->
-    <dimen name="sizeOfTabText">15sp</dimen>
+    <dimen name="sizeOfTabText">13sp</dimen>
 
     <!-- TextSize of the address -->
-    <dimen name="textSizeOfAddress">12sp</dimen>
+    <dimen name="textSizeOfAddress">14sp</dimen>
 </resources>
