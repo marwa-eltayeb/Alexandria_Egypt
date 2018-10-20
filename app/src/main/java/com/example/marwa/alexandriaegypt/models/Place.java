@@ -1,4 +1,6 @@
-package com.example.marwa.alexandriaegypt;
+package com.example.marwa.alexandriaegypt.models;
+
+import java.util.ArrayList;
 
 /**
  * {@link Place} represents the places that the user wants to visit.
@@ -25,6 +27,8 @@ public class Place {
      * Constant value that represents no image is provided for that place
      */
     private static final int NO_IMAGE_PROVIDED = -1;
+
+    private ArrayList<Description> description = null ;
 
     /**
      * Create a constructor.
@@ -77,6 +81,20 @@ public class Place {
      */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
+    /**
+     * Return list of countries within a continent
+     */
+    public ArrayList<Description> getDescription() {
+        return description;
+    }
+
+    /**
+     * method used to countries for a continent
+     */
+    public void setDescription(ArrayList<Description> description) {
+        this.description = description;
     }
 
 }
