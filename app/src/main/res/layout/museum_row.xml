@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/touch_feedback"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+    <!--Image of the place-->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:contentDescription="@string/the_image_of_the_place"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/stanley" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding">
+
+        <!--Name of the place-->
+        <TextView
+            android:id="@+id/name_text_view"
+            style="@style/name"
+            android:gravity="bottom"
+            android:textStyle="bold"
+            tools:text="Seagull" />
+        <!--Address of the place-->
+        <TextView
+            android:id="@+id/address_text_view"
+            style="@style/address"
+            tools:text="Gleem – Highest Cafe Latino" />
+
+        <ImageView
+            android:id="@+id/image_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="right"
+            android:src="@drawable/map"
+            android:contentDescription="@string/map" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
