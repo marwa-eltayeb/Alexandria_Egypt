@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Height of each list item -->
-    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_item_height">100dp</dimen>
 
-    <!-- Padding for the layout inside list_item.xml -->
+    <!-- Padding for the layout inside museum_row.xmll -->
     <dimen name="padding">10dp</dimen>
 
-    <!-- Height of the element inside list_item.xml -->
+    <!-- Height of the element inside museum_row.xmll -->
     <dimen name="heightOfElement">0dp</dimen>
 
     <!-- Padding of the Tab -->
