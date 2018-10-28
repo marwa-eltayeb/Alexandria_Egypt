@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.marwa.alexandriaegypt.Place;
+import com.example.marwa.alexandriaegypt.models.Place;
 import com.example.marwa.alexandriaegypt.R;
 import com.example.marwa.alexandriaegypt.fragments.AttractionsFragment;
 import com.example.marwa.alexandriaegypt.fragments.CafesFragment;
