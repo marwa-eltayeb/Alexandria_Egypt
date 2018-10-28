@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.marwa.alexandriaegypt.Place;
+import com.example.marwa.alexandriaegypt.models.Place;
 import com.example.marwa.alexandriaegypt.R;
 
 import java.util.ArrayList;
@@ -45,7 +45,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // Get the {@link Place} object located at this position in the list
         final Place currentPlace = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID name_text_view.
+        // Find the TextView in the museum_roww.xml layout with the ID name_text_view.
         TextView name = (TextView) listItemView.findViewById(R.id.name_text_view);
         // Get the name of the place from the currentPlace object and set this text on name.
         name.setText(currentPlace.getPlaceName());
@@ -59,12 +59,12 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
             }
         });
 
-        // Find the TextView in the list_item.xml layout with the ID address_text_view.
+        // Find the TextView in the museum_roww.xml layout with the ID address_text_view.
         TextView address = (TextView) listItemView.findViewById(R.id.address_text_view);
         // Get the address of the place from the currentPlace object and set this text on address.
         address.setText(currentPlace.getPlaceAddress());
 
-        // Find the ImageView in the list_item.xml layout with the ID image.
+        // Find the ImageView in the museum_roww.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view);
         final int image = currentPlace.getImageResourceId();
 
