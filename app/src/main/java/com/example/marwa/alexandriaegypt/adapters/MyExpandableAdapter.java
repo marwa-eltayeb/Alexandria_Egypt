@@ -2,7 +2,9 @@ package com.example.marwa.alexandriaegypt.adapters;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.database.DataSetObserver;
+import android.net.Uri;
 import android.speech.tts.TextToSpeech;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
@@ -13,9 +15,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.marwa.alexandriaegypt.R;
 import com.example.marwa.alexandriaegypt.models.Description;
 import com.example.marwa.alexandriaegypt.models.Place;
-import com.example.marwa.alexandriaegypt.R;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -127,6 +129,25 @@ public class MyExpandableAdapter implements ExpandableListAdapter {
 
 
         ImageView map = (ImageView) convertView.findViewById(R.id.image_map);
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(context, "map", Toast.LENGTH_SHORT).show();
+                // Store an address in a String
+                //String addressString = "1600 Amphitheatre Parkway, CA";
+
+                String addressString = place.getPlaceName();
+
+                // Use Uri.Builder with the appropriate scheme and query to form the Uri for the address
+                Uri.Builder builder = new Uri.Builder();
+                builder.scheme("geo")
+                        .appendPath("0,0")
+                        .appendQueryParameter("q", addressString);
+                Uri addressUri = builder.build();
+                
+                showMap(addressUri);
+            }
+        });
 
 
         // Zoom the image when the user clicks on it
@@ -252,6 +273,35 @@ public class MyExpandableAdapter implements ExpandableListAdapter {
 
 
 
+    /**
+     * This method will fire off an implicit Intent to view a location on a map.
+     *
+     * When constructing implicit Intents, you can use either the setData method or specify the
+     * URI as the second parameter of the Intent's constructor,
+     *
+     * @param geoLocation The Uri representing the location that will be opened in the map
+     */
+    private void showMap(Uri geoLocation) {
+        // Create an Intent with action type, Intent.ACTION_VIEW
+        /*
+         * Again, we create an Intent with the action, ACTION_VIEW because we want to VIEW the
+         * contents of this Uri.
+         */
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+
+        // Set the data of the Intent to the Uri passed into this method
+        /*
+         * Using setData to set the Uri of this Intent has the exact same affect as passing it in
+         * the Intent's constructor. This is simply an alternate way of doing this.
+         */
+        intent.setData(geoLocation);
+
+
+        // Verify that this Intent can be launched and then call startActivity
+        if (intent.resolveActivity(context.getPackageManager()) != null) {
+            context.startActivity(intent);
+        }
+    }
 
 
 }
