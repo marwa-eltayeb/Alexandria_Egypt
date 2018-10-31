@@ -7,10 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
 
-import com.example.marwa.alexandriaegypt.models.Description;
-import com.example.marwa.alexandriaegypt.models.Place;
 import com.example.marwa.alexandriaegypt.R;
 import com.example.marwa.alexandriaegypt.adapters.MyExpandableAdapter;
+import com.example.marwa.alexandriaegypt.models.Description;
+import com.example.marwa.alexandriaegypt.models.Place;
 
 import java.util.ArrayList;
 
@@ -38,10 +38,10 @@ public class MuseumsFragment extends Fragment {
         //Find the ListView object in the view hierarchy of the {@link Activity}.
         ExpandableListView expandableListView = (ExpandableListView) rootView.findViewById(R.id.ExpandableListView);
 
-        //Create an ExpandableAdapter, whose data source is a list of places.
+        //Create an PlaceAdapter, whose data source is a list of places.
         MyExpandableAdapter adapter = new MyExpandableAdapter(getActivity(), places);
 
-        //Make the ListView use the ExpandableAdapter
+        //Make the ListView use the PlaceAdapter
         expandableListView.setAdapter(adapter);
 
         return rootView;

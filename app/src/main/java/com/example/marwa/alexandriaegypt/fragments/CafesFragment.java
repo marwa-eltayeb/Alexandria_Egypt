@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.marwa.alexandriaegypt.models.Place;
-import com.example.marwa.alexandriaegypt.adapters.PlaceAdapter;
 import com.example.marwa.alexandriaegypt.R;
+import com.example.marwa.alexandriaegypt.adapters.PlaceAdapter;
+import com.example.marwa.alexandriaegypt.models.Place;
 
 import java.util.ArrayList;
 
@@ -50,3 +50,4 @@ public class CafesFragment extends Fragment {
         return rootView;
     }
 }
+
