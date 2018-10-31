@@ -144,7 +144,7 @@ public class MyExpandableAdapter implements ExpandableListAdapter {
                         .appendPath("0,0")
                         .appendQueryParameter("q", addressString);
                 Uri addressUri = builder.build();
-                
+
                 showMap(addressUri);
             }
         });
