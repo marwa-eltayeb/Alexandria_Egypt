@@ -1,4 +1,5 @@
 # Alexandria Tour Guide
+[![HitCount](http://hits.dwyl.com/Marwa-Eltayeb/Alexandria_Egypt.svg)](http://hits.dwyl.com/Marwa-Eltayeb/Alexandria_Egypt)
 
 - It is a travel Guide app about Alexandria city in Egypt.
 - It includes restaurants, museums, attractive places and cafes.
